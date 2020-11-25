@@ -1,9 +1,14 @@
 .App{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 li{
     list-style-type: none;
     text-align: justify;
+}
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
 }
