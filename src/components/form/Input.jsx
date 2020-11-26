@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // eslint-disable-next-line
 export default props => {
 
-    const [nome,setNome] = useState("")
+    const [nome,setNome] = useState("João Paulo")
 
     return(
         <>

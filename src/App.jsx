@@ -10,7 +10,8 @@ import CondicionalComIf from "./components/basicos/CondicionalComIf";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/indireta/Super";
 import Input from "./components/form/Input";
-import Contador from './components/contador/Contador'
+import Contador from './components/contador/Contador';
+import Mega from './components/mega/Mega'
 
 
 
@@ -21,6 +22,11 @@ export default (props)=>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+
+            <Card titulo="#11 - Mega-Sena" color="#73503C">
+                    <Mega quantNumero={6}></Mega>
+            </Card>
+
             <Card titulo="#10 - Contador" color="#160A47">
                 <Contador passo={10}valor={100}></Contador>
             </Card>
